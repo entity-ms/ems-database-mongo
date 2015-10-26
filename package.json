@@ -1,0 +1,27 @@
+{
+  "name": "ems-database-mongo",
+  "description": "Provides the EntityMS Database MongoDB Component.",
+  "keywords": [
+    "EntityMS",
+    "Database",
+    "MongoDB",
+    "Components"
+  ],
+  "author": "Orgun109uk <orgun109uk@gmail.com>",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/entity-ms/ems-database-mongo.git"
+  },
+  "main": "./lib/index.js",
+  "dependencies": {
+    "ems-database": "git://github.com/entity-ms/ems-database.git",
+    "mongo-rql": "0.0.2",
+    "mongodb": "^2.0.46"
+  },
+  "entityMS": {
+    "type": "component",
+    "title": "Database Component: MongoDB",
+    "description": "Provides a MongoDB Database component."
+  }
+}
